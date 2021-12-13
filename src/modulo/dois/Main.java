@@ -3,7 +3,45 @@ package modulo.dois;
 public class Main {
 
     public static void main(String[] args) {
-        final float pi = 3.146f;
+
+
+    }
+
+
+    public static void desafios(){
+
+        CupomDesconto cupomDesconto = new CupomDesconto();
+        cupomDesconto.setCupomValido(123);
+        System.out.println(cupomDesconto.validar(123));
+
+        System.out.println(cupomDesconto.noHorario(30, 15));
+
+        int a = 0, b = 0;
+
+        System.out.println(++a + b++);
+    }
+
+
+    public static void incremento(){
+        int juros = 10;
+        int selic = 11;
+
+        boolean maiorOuIgual = juros >= selic;
+        boolean igualA = juros == selic;
+
+        System.out.println(igualA);
+
+        int desafioUm = 5;
+        System.out.println(desafioUm += ++desafioUm);
+
+        int desafioDois = 5;
+        System.out.println(desafioDois += desafioDois++);
+
+    }
+
+    public static void variaveis(){
+
+        final float pi = 3.146F;
         final double e;
 
         e = 1.234e2;
@@ -24,4 +62,5 @@ public class Main {
         System.out.println(aprovado);
 
     }
+
 }
