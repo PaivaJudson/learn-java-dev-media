@@ -5,8 +5,33 @@ public class Main {
     public static void main(String[] args) {
 
 
+
     }
 
+    public static  void switchCase(){
+
+        int x = 1;
+        switch(x){
+
+            case 1:{
+                System.out.println("Caso 1 a");
+                System.out.println("Caso 1 b");
+                break;
+            }
+            case 2:
+                System.out.println("Caso 2");
+                break;
+            default:
+                System.out.println("Caso default");
+                break;
+        }
+    }
+
+    public static void ifElse(){
+        int numeroDias = 16;
+        System.out.println((numeroDias <= 15)? "Primeira Quizena" : "Segunda Quinzena");
+
+    }
 
     public static void desafios(){
 
