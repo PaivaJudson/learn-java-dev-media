@@ -8,6 +8,13 @@ public class Main {
 
     }
 
+    public static void operadorCondicionalTernario(){
+        int x = 12, y = 4, z = 3;
+
+        String maior = (x > y? x+" é o maior ": (z > y? z+" é o maior": y+" é o maior"));
+        System.out.println(maior);
+    }
+
     public static  void switchCase(){
 
         int x = 1;
